@@ -1,0 +1,256 @@
+﻿@font-face {
+    font-family: 'Century Gothic';
+    src: url('./../fonts/gothic.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+html, body, .layout {
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    height: 100%;
+    font-family: 'Century Gothic';
+}
+
+.cover {
+    background-color: black;
+    position:fixed;
+    z-index: 2;
+}
+
+.menu_item {
+    float: right;
+    height: 100%;
+    opacity: 0.7;
+}
+
+.menu_item:hover {
+    float: right;
+    height: 100%;
+    opacity: 0.9;
+}
+
+.menu_item:active {
+    float: right;
+    height: 100%;
+    opacity: 1;
+}
+
+.navigation {
+    position:absolute;
+    opacity: 0.4;
+}
+
+.navigation:hover {
+    position:absolute;
+    opacity: 0.6;
+}
+
+.navigation:active {
+    position:absolute;
+    opacity: 0.7;
+}
+
+#badReview{
+    color: #913032;
+}
+
+#niceReview{
+    color: #0C9754;
+}
+
+#reply {
+    height: 100%;
+    position: absolute;
+    right: 0;
+    background-color: #913032;
+    z-index: 3;
+}
+
+#reply:hover {
+    height: 100%;
+    position: absolute;
+    right: 0;
+    background-color: #B15052;
+    z-index: 3;
+}
+
+#reply:active {
+    height: 100%;
+    position: absolute;
+    right: 0;
+    background-color: #913032;
+    z-index: 3;
+}
+
+#replyPopUp{
+    z-index:4;
+    position:absolute;
+    bottom:0;
+    left:0;
+    right:0;
+}
+
+#replyPopUp > * {
+    width: 100%;
+    float: left;
+    z-index:1;
+}
+
+#retweet {
+    height: 100%;
+    position: absolute;
+    right: 0;
+    background-color: #0c9754;
+    z-index: 2;
+}
+
+#retweet:hover {
+    height: 100%;
+    position: absolute;
+    right: 0;
+    background-color: #2cB774;
+    z-index: 2;
+}
+
+#retweet:active {
+    height: 100%;
+    position: absolute;
+    right: 0;
+    background-color: #0c9754;
+    z-index: 2;
+}
+
+#content {
+    position: absolute;
+    left: 0;
+    width: 100%;
+}
+
+#footer {
+    background-color: #d7d7d7;
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+    z-index: 1;
+}
+
+#fullpage {
+    background-color: black;
+}
+
+#header {
+    background-color: #828282;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    vertical-align: middle;
+    z-index:1;
+}
+
+#logo {
+    position: absolute;
+    z-index: 2;
+    bottom: 0;
+    left: 0;
+}
+
+#submitWrapper {
+    position: absolute;
+    color: white;
+    font-size : large;
+}
+
+#cancelWrapper {
+    position: absolute;
+    color: white;
+    font-size : large;
+}
+
+#retweetText {
+    position: absolute;
+    color: white;
+    font-size : large;
+}
+
+ #replyText {
+    position: absolute;
+    color: white;
+    font-size : large;
+}
+
+#cancelReply {
+    height: 100%;
+    position: absolute;
+    right: 0;
+    background-color: #913032;
+    z-index: 3;
+}
+
+#cancelReply:hover {
+    height: 100%;
+    position: absolute;
+    right: 0;
+    background-color: #B15052;
+    z-index: 3;
+}
+
+#cancelReply:active {
+    height: 100%;
+    position: absolute;
+    right: 0;
+    background-color: #913032;
+    z-index: 3;
+}
+
+#submitReply {
+    height: 100%;
+    position: absolute;
+    right: 0;
+    background-color: #0c9754;
+    z-index: 2;
+}
+
+#submitReply:hover {
+    height: 100%;
+    position: absolute;
+    right: 0;
+    background-color: #2cB774;
+    z-index: 2;
+}
+
+#submitReply:active {
+    height: 100%;
+    position: absolute;
+    right: 0;
+    background-color: #0c9754;
+    z-index: 2;
+}
+
+#title{
+    position: absolute;
+    color: white;
+    font-size : x-large;
+}
+
+#tweet {
+    color: black;
+    position: absolute;
+    height: 95%;
+    width: 74%;
+}
+
+#tweet > * {
+    margin: 15px;
+}
+
+#usrName {
+    color: #18cadc;
+}
+
+#workspace {
+    background-color: white;
+    position: absolute;
+    z-index: 0;
+}

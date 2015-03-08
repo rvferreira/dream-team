@@ -1,0 +1,65 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+
+    <script type="text/javascript" src="./js/jquery-2.1.1.js"></script>
+
+    <link rel="stylesheet" type="text/css" href="./css/style.css" />
+    <script type="text/javascript" src="./js/ui_builder.js"></script>
+    
+    <title>Socialight - Your dream in the clouds</title>
+
+    <script>
+        $(function () {
+            layoutInit();
+        });
+    </script>
+</head>
+<body>
+    <div id="leftCover" class="layout cover"></div>
+    <div id="rightCover" class="layout cover"></div>
+    <div id="fullpage" class="layout">
+        <div id="workspace">
+            <div id="replyPopUp">
+                <div id="costumerText" style="height:40%"></div>
+                <div id="answer" style="height:40%;z-index:3;position:absolute">
+                    <input type="text" id="answerInput" value="Your answer goes here." style="width:100%;height:100%"/>
+                </div>
+                <div id="replyButtons" style="position:relative;height:20%;background-color:white">
+                    <div id="cancelReply" style="position:absolute;height:100%;width:50%;bottom:0;left:0">
+                        <div id="cancelWrapper">Cancel</div>
+                    </div>
+                    <div id="submitReply" style="position:absolute;height:100%;width:50%;bottom:0;right:0">
+                        <div id="submitWrapper">Submit</div>
+                    </div>
+                </div>
+                <div id="replyBackground" style="position:absolute;background-color:white;opacity:0.85;top:0;bottom:0;left:0;right:0;z-index:0;"></div>
+            </div>
+            <div id="header">
+                <div id="title">SocialLight</div>
+                <img id="settings_button" src="img/settings_icon.png" class="menu_item"/>
+                <!-- <img id="new_tweet_button" src="img/new_tweet_icon.png" class="menu_item" /> -->
+            </div>
+            
+            <div id="content">
+                <div id="previous" class="navigation">
+                    <img class="nav_img" src="img/left_arrow.png"/>
+                </div>
+                <div id="next" class="navigation">
+                    <img class="nav_img" src="img/right_arrow.png" />
+                </div>
+                <div id="tweet"></div>
+            </div>
+            <div id="footer">
+                <div id="retweet">
+                    <div id="retweetText">Retweet</div>
+                </div>
+                <div id="reply">
+                    <div id="replyText">Reply</div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

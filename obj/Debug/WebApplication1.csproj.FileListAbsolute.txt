@@ -1,0 +1,12 @@
+C:\projects\Learning\WebApplication1\WebApplication1\bin\WebApplication1.dll.config
+C:\projects\Learning\WebApplication1\WebApplication1\bin\WebApplication1.dll
+C:\projects\Learning\WebApplication1\WebApplication1\bin\WebApplication1.pdb
+C:\projects\Learning\WebApplication1\WebApplication1\obj\Debug\WebApplication1.csprojResolveAssemblyReference.cache
+C:\projects\Learning\WebApplication1\WebApplication1\obj\Debug\WebApplication1.dll
+C:\projects\Learning\WebApplication1\WebApplication1\obj\Debug\WebApplication1.pdb
+C:\projects\dream-team\bin\WebApplication1.dll.config
+C:\projects\dream-team\bin\WebApplication1.dll
+C:\projects\dream-team\bin\WebApplication1.pdb
+C:\projects\dream-team\obj\Debug\WebApplication1.csprojResolveAssemblyReference.cache
+C:\projects\dream-team\obj\Debug\WebApplication1.dll
+C:\projects\dream-team\obj\Debug\WebApplication1.pdb
